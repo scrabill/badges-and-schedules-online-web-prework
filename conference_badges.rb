@@ -18,7 +18,7 @@ def assign_rooms(attendees)
       room_assignments << "Hello, #{name}! You'll be assigned to room #{index + 1}!"
     end
 
-  puts room_assignments
+  return room_assignments
 end
 
 def printer(attendees)
